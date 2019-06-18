@@ -1,4 +1,4 @@
-Assessment 1.AWS
+# Assessment 1.AWS
 *************************************************************************************************************************
 Please be aware of the fact that we are not only looking at the actual deliverables but also on your road to these designs. We are mostly interested in the person behind the assessment. If the assessment is successful enough, the next step will be a presentation given to some of our team members.
  
@@ -39,21 +39,35 @@ We are looking forward to your assessment and love to hear when you expect to de
 
 
 
-### Features
+# Magento on AWS
 
-- Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
-- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
-- Markdown Extras : Support ToC (Table of Contents), Emoji, Task lists, @Links...;
-- Compatible with all major browsers (IE8+), compatible Zepto.js and iPad;
-- Support identification, interpretation, fliter of the HTML tags;
-- Support TeX (LaTeX expressions, Based on KaTeX), Flowchart and Sequence Diagram of Markdown extended syntax;
-- Support AMD/CMD (Require.js & Sea.js) Module Loader, and Custom/define editor plugins;
+AWS provides flexible infrastucture for requirements of all sizes. 
+
+As a pioneer in the creation of what is now called Cloud, AWS still drives the Cloud services with an ever growing number of services, that bottomline, serve more and more clients.
+
+A multitude of those clients run e-commerce web sites that are based on Open Source software Magento. The recurrence of customers requiring this platform setup on the cloud, led to the creation of packaged solutions that can be easily implemented.
+
+There are 2 different ways to create a Magento platform in AWS - LightSail and Cloudformation.
+
+LightSail provides entry level infrastructure that is managed and can be requested in different sizes, for a fraction of the price.
+
+As a managed service, the operational maintenance of the system is done by the AWS professionals letting you concentrate on running your business.
+
+The downside is that the solution does not allow cater for the ability to change and the processing power is limited to the size of package requested.
+
+With bigger flexibility and growth potential in mind, Cloudformation templates are the next option for a fast deployment that also enables your web site to change and cater for incresing customer traffic and usage.
+
+
+
+
 
 # Editor.md
 
-![](https://pandao.github.io/editor.md/images/logos/editormd-logo-180x180.png)
+![](https://github.com/rkarato/rkarato.github.io/blob/master/img/10.jpg)
+![](https://github.com/rkarato/rkarato.github.io/blob/master/img/10.jpg)
+![](https://github.com/rkarato/rkarato.github.io/blob/master/img/10.jpg)
+![](https://github.com/rkarato/rkarato.github.io/blob/master/img/10.jpg)
 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/github/issues/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
 
 
 **Table of Contents**
@@ -97,6 +111,9 @@ Superscript: X<sub>2</sub>，Subscript: O<sup>2</sup>
 **Abbreviation(link HTML abbr tag)**
 
 The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.
+
+- Support Standard Markdown / CommonMark and GFM(GitHub Flavored Markdown);
+- Full-featured: Real-time Preview, Image (cross-domain) upload, Preformatted text/Code blocks/Tables insert, Code fold, Search replace, Read only, Themes, Multi-languages, L18n, HTML entities, Code syntax highlighting...;
 
 ###Blockquotes
 
