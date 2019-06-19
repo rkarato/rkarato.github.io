@@ -64,7 +64,7 @@ The current client infrastructure can be easily moved to AWS.
 Magento consists of a web application backed by a relational database.
 
 The diagram below shows the target architecture in AWS:
-![](https://github.com/rkarato/rkarato.github.io/blob/master/img/10.jpg)
+![](https://rkarato.github.io/img/10.jpg)
 
 
 All application layers are built to cater for availability and auto scaling capability. 
@@ -102,7 +102,7 @@ Security is a mandatory requirement. All AWS services have security features tha
 ## Future enhancements
 In addition to increasing the number and size of the scaling nodes, other technologies can be incorporated to the architecture.
 For a multi region shop, Cloudfront edge locations can be used to serve static content.
-![](https://github.com/rkarato/rkarato.github.io/blob/master/img/20.jpg)
+![](https://rkarato.github.io/img/20.jpg)
 
 
 
@@ -113,10 +113,10 @@ The application architecture can evolve over time.
 Requirement 2 - Allowing product reviews, should not require architectural changes as reviews can easily be stored on the database and changes to accommodate this functionality be done on the application code.
 
 Requirement 3 - Allow videos and thumbnails, can make use of AWS Elastic Transcoder. This service process videos and change its format to the most suitable according to channel or device being used. Videos can be uploaded to an S3 bucket, transcoded to different formats using a pipeline job and stored the resulting files back into a different S3 bucket, accessible by the application.  
-![](https://github.com/rkarato/rkarato.github.io/blob/master/img/30.jpg)
+![](https://rkarato.github.io/img/30.jpg)
 
 Requirement 4 - Allow video screening, can leverage AWS AI capabilities using Amazon Rekognition. Rekognition evaluate videos, identify and tag its content. Rekognition API calls can be triggered from a S3 bucket. When suspicious content is detected, the video is set asside further manual verification. Safe videos can be moved to another bucket where it will be ready for publishing.
-![](https://github.com/rkarato/rkarato.github.io/blob/master/img/40.jpg)
+![](https://rkarato.github.io/img/40.jpg)
 
 
 
